@@ -1,6 +1,6 @@
 # Curriculum Vitae
 ## Name:
-__**Kseniya Kudzinovich**__
+__Kseniya Kudzinovich__
 ## Contact Information:
 * Mobile ph.: +375 25 932 10 96
 * Email: k_kudzinovich@mail.ru
