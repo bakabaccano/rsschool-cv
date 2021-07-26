@@ -1,66 +1,92 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
     <header>
-        <div>Curriculum Vitae</div>
+        <h1 class="header">Curriculum Vitae</h1>
     </header>
     <main>
-        <h2>Name:</h2>
-        <p>Kseniya Kudzinovich</p>
-        <div class="img-container">
+        <div class="img-container"></div>
+        
+        <section class="info-top">
+            <h2>Name:</h2>
+                <span class="name">Kseniya Kudzinovich</span>
+        </section>
+        
+        <section class="info-top">
+            <h2>Contact Information:</h2>
+                <ul>
+                    <li>Mobile ph.: +375 25 932 10 96</li>
+                    <li>Email: k_kudzinovich@mail.ru</li>
+                </ul>
+        </section>
+        
+        <article>
+            <h2>About myself:</h2>
+                <p>I’m currently a teacher at the Technical College. I give Records Management and Information Technology lessons. I graduated Belarusian State University with a history degree, but I was always passionate about computer science so I’m highly motivated and determined to become a front-end web-developer. I have strong willingness to learn and ability to handle pressure and meet deadlines. I also can adapt to whatever circumstances I am presented with and complete a task in more than just one way. Known as a team player and strive to consistently exceed expectations.</p>
+        </article>
+        
+        <div class="flex-wrap">
+            <div class="flex-wrap-child">
+
+                <section>
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Visual Studio Code</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </section>                   
+                <section>
+                    <h2>Experience:</h2>
+                    <span>no experience</span>
+                </section>
+                
+                <section>
+                    <h2>Education:</h2>
+                    <ul>
+                        <li>2021: Online-course «JavaScript/Front-end. Stage 0» (in process)</li>
+                        <li>2014-2018: Belarusian State University</li>
+                    </ul>
+                </section>               
+                <section>
+                    <h2>English level:</h2>
+                    <p>B2</p>
+                </section>
+            </div>
+                <article>
+                    <h2>Sample code:</h2>
+                        <code>function squareRoots(a,b,c) { <br>
+                        
+                            if (a === 0) {<br>
+                            return [-c/b];<br>
+                            }<br>
+                            
+                            const d=b*b-4*a*c;<br>
+                            
+                            if ( d&lt;0 ) { <br>
+                            return [];<br>
+                            }<br>
+                            
+                            if ( d==0 ) {<br>
+                            return [ -b/(2*a) ]<br>
+                            }<br>
+                            
+                            const x1=(-b+Math.sqrt(d))/(2*a);<br>
+                            const x2=(-b-Math.sqrt(d))/(2*a);<br>
+                            
+                            return [ x1, x2 ];<br>
+                            }
+                        </code>
+                </article>
         </div>
-        <h2>Contact Information:</h2>
-            <ul>
-                <li>Mobile ph.: +375 25 932 10 96</li>
-                <li>Email: k_kudzinovich@mail.ru</li>
-            </ul>
-        <h2>About myself:</h2>
-            <p>I’m currently a teacher at the Technical College. I give Records Management and Information Technology lessons. I graduated Belarusian State University with a history degree, but I was always passionate about computer science so I’m highly motivated and determined to become a front-end web-developer. I have strong willingness to learn and ability to handle pressure and meet deadlines. I also can adapt to whatever circumstances I am presented with and complete a task in more than just one way. Known as a team player and strive to consistently exceed expectations.</p>
-        <h2>Skills:</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Visual Studio Code</li>
-                <li>Git/GitHub</li>
-            </ul>
-        <h2>Sample code:</h2>
-            <code>function squareRoots(a,b,c) { <br>
-                <br>
-                if (a === 0) {<br>
-                return [-c/b];<br>
-                }<br>
-                <br>
-                const d=b*b-4*a*c;<br>
-                <br>
-                if ( d<0 ) { <br>
-                return [];<br>
-                }<br>
-                <br>
-                if ( d==0 ) {<br>
-                return [ -b/(2*a) ]<br>
-                }<br>
-                <br>
-                const x1=(-b+Math.sqrt(d))/(2*a);<br>
-                const x2=(-b-Math.sqrt(d))/(2*a);<br>
-                <br>
-                return [ x1, x2 ];<br>
-                }<br>
-            </code>
-        <h2>Experience:</h2>
-            <p>no experience</p>
-        <h2>Education:</h2>
-            <ul>
-                <li>2021: Online-course «JavaScript/Front-end. Stage 0» (in process)</li>
-                <li>2014-2018: Belarusian State University</li>
-            </ul>
-        <h2>English level:</h2>
-            <p>B2</p>
     </main>
     <footer></footer>
 </body>
