@@ -3,59 +3,65 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.
-    <title>CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Curriculum Vitae</h1>
-    <h2>Name:</h2>
-    <p>Kseniya Kudzinovich</p>
-    <img scr=".jpg" width="" height="" alt="Photo">
-    <h2>Contact Information:</h2>
-        <ul>
-            <li>Mobile ph.: +375 25 932 10 96</li>
-            <li>Email: k_kudzinovich@mail.ru</li>
-        </ul>
-    <h2>About myself:</h2>
-    <p>I’m currently a teacher at the Technical College. I give Records Management and Information Technology lessons. I graduated Belarusian State University with a history degree, but I was always passionate about computer science so I’m highly motivated and determined to become a front-end web-developer. I have strong willingness to learn and ability to handle pressure and meet deadlines. I also can adapt to whatever circumstances I am presented with and complete a task in more than just one way. Known as a team player and strive to consistently exceed expectations.</p>
-    <h2>Skills:</h2>
-        <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>Visual Studio Code</li>
-            <li>Git/GitHub</li>
-        </ul>
-    <h2>Sample code:</h2>
-        <code>function squareRoots(a,b,c) {
-
-            if (a === 0) {
-            return [-c/b];
-            }
-            
-            const d=b*b-4*a*c;
-            
-            if ( d<0 ) {
-            return [];
-            }
-            
-            if ( d==0 ) {
-            return [ -b/(2*a) ]
-            }
-            
-            const x1=(-b+Math.sqrt(d))/(2*a);
-            const x2=(-b-Math.sqrt(d))/(2*a);
-            
-            return [ x1, x2 ];
-            }
-        </code>
-    <h2>Experience:</h2>
-        <p>no experience</p>
-    <h2>Education:</h2>
-        <ul>
-            <li>2021: Online-course «JavaScript/Front-end. Stage 0» (in process)</li>
-            <li>2014-2018: Belarusian State University</li>
-        </ul>
-    <h2>English level:</h2>
-        <p>B2</p>
+    <header>
+        <div>Curriculum Vitae</div>
+    </header>
+    <main>
+        <h2>Name:</h2>
+        <p>Kseniya Kudzinovich</p>
+        <div class="img-container">
+        </div>
+        <h2>Contact Information:</h2>
+            <ul>
+                <li>Mobile ph.: +375 25 932 10 96</li>
+                <li>Email: k_kudzinovich@mail.ru</li>
+            </ul>
+        <h2>About myself:</h2>
+            <p>I’m currently a teacher at the Technical College. I give Records Management and Information Technology lessons. I graduated Belarusian State University with a history degree, but I was always passionate about computer science so I’m highly motivated and determined to become a front-end web-developer. I have strong willingness to learn and ability to handle pressure and meet deadlines. I also can adapt to whatever circumstances I am presented with and complete a task in more than just one way. Known as a team player and strive to consistently exceed expectations.</p>
+        <h2>Skills:</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Visual Studio Code</li>
+                <li>Git/GitHub</li>
+            </ul>
+        <h2>Sample code:</h2>
+            <code>function squareRoots(a,b,c) { <br>
+                <br>
+                if (a === 0) {<br>
+                return [-c/b];<br>
+                }<br>
+                <br>
+                const d=b*b-4*a*c;<br>
+                <br>
+                if ( d<0 ) { <br>
+                return [];<br>
+                }<br>
+                <br>
+                if ( d==0 ) {<br>
+                return [ -b/(2*a) ]<br>
+                }<br>
+                <br>
+                const x1=(-b+Math.sqrt(d))/(2*a);<br>
+                const x2=(-b-Math.sqrt(d))/(2*a);<br>
+                <br>
+                return [ x1, x2 ];<br>
+                }<br>
+            </code>
+        <h2>Experience:</h2>
+            <p>no experience</p>
+        <h2>Education:</h2>
+            <ul>
+                <li>2021: Online-course «JavaScript/Front-end. Stage 0» (in process)</li>
+                <li>2014-2018: Belarusian State University</li>
+            </ul>
+        <h2>English level:</h2>
+            <p>B2</p>
+    </main>
+    <footer></footer>
 </body>
 </html>

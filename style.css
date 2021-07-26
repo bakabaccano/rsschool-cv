@@ -1,0 +1,7 @@
+.img-container {
+display: block;
+width: 233px;
+height: 270px;
+background-image: url(assets/img.jpg);
+background-repeat: no-repeat;
+}
