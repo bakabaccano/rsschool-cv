@@ -37,6 +37,10 @@ ul>li {
     list-style-type: square;
     margin-left: 2vh;
 }
+ul>li>a {
+    text-decoration: none;
+    color: black;
+}
 header > h1 {
     font-size: 26px;
     font-weight: bold;
@@ -93,4 +97,15 @@ header > h1 {
 code {
     background-color: inherit;
     font-size: 1.3em;
+}
+footer>ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%; 
+    font-weight: 600;
+}
+footer>ul>li {
+    list-style-type: none;
 }
